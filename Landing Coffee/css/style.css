@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(245, 245, 245);
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /*
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  */
+}
+.container-navbar{
+  background: #d28e32;
+  height: 80px;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgb(119, 88, 37, 0.5);
+}
+.container-navbar > img{
+  width: 50px;
+  object-fit: cover;
+  height: 60px;
+}
+.container-navbar > img:hover{
+  cursor: pointer;
+}
+.container-navbar > h1:hover{
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.navbar-menu{
+  display: flex;
+  gap:40px;
+}
+.navbar-menu > p {
+  padding: 8px 12px;
+}
+.navbar-menu > p:hover {
+  background: #a6844b;
+  color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* KONTEN */
+.container-konten{
+  height: 450px;
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.konten-kanan {
+  width: 45%;
+}
+.konten-kanan > div > p{
+  letter-spacing: 0.1rem;
+  font-family: 'Roboto Mono', monospace;
+}
+.konten-kanan > div > h1{
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.container-konten > img {
+  width: 50%;
+  height: 320px;
+  align-items: center;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/* Galery */
+.container-card-section{
+  text-align: center;
+  margin-top: 80px;
+}
+.container-card-section > h1{
+  font-size: 28px;
+  font-weight: bold;
+}
+.container-card{
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 ;
+}
+.card-galery{
+  display: flex;
+  gap:30px;
+}
+
+.card-galery > img{
+  width: 180px;
+  border: 1px solid #777;
+}
+
+/* FOOTER */
+.container-footer{
+  background:rgb(203, 214, 147);
+  height: 80px;
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+}
+
+.container-footer > h3 {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
